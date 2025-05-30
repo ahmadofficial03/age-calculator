@@ -80,7 +80,7 @@ const AgeCalculator = () => {
         </h1>
         <div className="mt-8 flex justify-center items-center flex-col w-[100%] md:w-[60%] p-[3rem] text-white">
           <div className="flex justify-center items-center flex-col md:flex-row w-[100%] p-4 gap-4  ">
-            <div className="w-[100%] md:w-[40]">
+            <div className="w-[100%]">
               <input
                 value={birthday}
                 onChange={(e) => setBirthday(e.target.value)}
@@ -91,7 +91,7 @@ const AgeCalculator = () => {
             <button
               disabled={loading}
               onClick={calculateAge}
-              class="w-[100%] md:w-[20] bg-transparent hover:bg-pink-400 text-pink-400 font-semibold hover:text-black cursor-pointer px-4 border border-pink-400 hover:border-transparent rounded-lg py-[14px]"
+              class="w-[100%] bg-transparent hover:bg-pink-400 text-pink-400 font-semibold hover:text-black cursor-pointer px-4 border border-pink-400 hover:border-transparent rounded-lg py-[14px]"
             >
               {loading ? "Processing..." : "Continue"}
             </button>
