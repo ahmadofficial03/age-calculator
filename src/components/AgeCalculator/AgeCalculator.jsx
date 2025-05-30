@@ -75,7 +75,7 @@ const AgeCalculator = () => {
 
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center h-full flex-col">
-        <h1 className="text-white text-[50px] lg:text-[40px] font-bold text-center">
+        <h1 className="text-white text-[35px] lg:text-[40px] font-bold text-center">
         ⌛Age Calculator
         </h1>
         <div className="mt-8 flex justify-center items-center flex-col w-[100%] md:w-[60%] p-[3rem] text-white">
